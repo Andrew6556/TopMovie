@@ -1,0 +1,100 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+.container{
+    max-width: 1200px;
+    margin: 5px auto;
+    text-align: center;
+}
+.main-title{
+    font-size: 60px;
+    letter-spacing: 10.5px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 35px;
+}
+.card{
+    height: 420px;
+    max-width: 320px;
+    border-radius: 14px;
+    transition: all 1s ease-in-out;
+}
+.card__title{
+    font-size: 30px;
+    font-weight: 500;
+    margin:15px  0px;
+}
+.card img{
+    height: 70%;
+    width: 100%;
+    border-radius: 4%;
+}
+.card-1 .card__btn{
+    background: #0E364B;
+    box-shadow: 3px 3px 2px 2px #3c93d5af
+}
+.card-2 .card__btn{
+    color: rgb(255, 255, 255);
+    background: #000000;
+    box-shadow: 3px 3px 2px 2px #2c231770
+}
+.card-3 .card__btn{
+    color: rgb(255, 255, 255);
+    background: #AC856A;
+    box-shadow: 3px 3px 2px 2px #2c231770
+}
+.card-1{
+    box-shadow: 0 14px 28px #01a3b271, 0 10px 10px rgba(0, 0, 0, 0.575);
+}
+.card-2{
+    box-shadow: 7px 8px 4px 1px #283C48
+}
+.card-3{
+    box-shadow: 0 14px 28px #594F47, 0 10px 10px rgba(0, 0, 0, 0.575)
+}
+.card-3:hover{
+    background: #6C5351;
+    color: rgb(250, 250, 250);
+    box-shadow: 3px 3px 2px 2px #594F47;
+} 
+.card-1:hover{
+    background: #3c93d573;
+    color: rgb(250, 250, 250);
+    box-shadow: 3px 3px 2px 2px #01a3b271;
+}  
+.card-2:hover{
+    background: #F5D284;
+    color: rgb(250, 250, 250);
+    box-shadow: 3px 3px 2px 2px #2c231770
+}
+.card-2 .card__btn:hover{
+    background: rgb(230, 51, 85);
+    box-shadow: 2px 3px 4px 1px rgba(230, 51, 84, 0.657)
+}
+.card__btn{
+    padding: 9px 35px;
+    color: rgb(250, 250, 250);
+    border-radius: 5px;
+    margin-top: 11px;
+    font-size: 18px;
+    transition: all 1s ease-in-out;
+}
+
